@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
-import { FaQuoteRight } from 'react-icons/fa';
-import data from './data';
+import React from 'react';
+import Slider from './Slider';
+
 function App() {
-  return <h2>slider project setup</h2>;
+  return <>
+    <Slider/>
+  </>
 }
 
 export default App;
